@@ -765,7 +765,7 @@ Enjoy your stay!'''
 
 
 
-my_secret = os.environ.get('TOKEN', 'MTE3NTcyNjg4MTExMTI4OTg1Ng.GcfFmh.jLLHm9WnBVOcvtr9YWeCdFNIBKR9krjaVdKx5Y')
+my_secret = os.environ.get('TOKEN')
 
 
 client.run(my_secret) 
